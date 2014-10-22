@@ -1,3 +1,7 @@
+#![deny(missing_doc)]
+
+//! A simple library for reading hex colors.
+
 use std::str::Chars;
 
 /// Converts a character into a u8 value.
