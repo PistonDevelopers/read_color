@@ -1,0 +1,14 @@
+[package]
+
+name = "read_color"
+version = "0.0.1"
+authors = [
+    "bvssvni <bvssvni@gmail.com>"
+]
+tags = []
+
+[lib]
+
+name = "read_color"
+path = "src/lib.rs"
+
