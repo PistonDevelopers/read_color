@@ -1,4 +1,4 @@
-#![deny(missing_doc)]
+#![deny(missing_docs)]
 
 //! A simple library for reading hex colors.
 
