@@ -5,7 +5,12 @@ version = "0.0.1"
 authors = [
     "bvssvni <bvssvni@gmail.com>"
 ]
-tags = []
+tags = ["color", "parse", "hex", "hexadecimal"]
+description = "A simple library for reading hex colors"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/pistondevelopers/read_color.git"
+homepage = "https://github.com/pistondevelopers/read_color"
 
 [lib]
 
