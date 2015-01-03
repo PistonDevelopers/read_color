@@ -1,11 +1,11 @@
 [package]
 
 name = "read_color"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     "bvssvni <bvssvni@gmail.com>"
 ]
-tags = ["color", "parse", "hex", "hexadecimal"]
+keywords = ["color", "parse", "hex", "hexadecimal", "piston"]
 description = "A simple library for reading hex colors"
 license = "MIT"
 readme = "README.md"

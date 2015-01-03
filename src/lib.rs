@@ -49,7 +49,7 @@ pub fn hex_pair(chars: &mut Chars) -> Option<u8> {
 }
 
 /// Reads RGB colors from iterator of characters.
-pub fn rgb(chars: &mut Chars) -> Option<[u8, ..3]> {
+pub fn rgb(chars: &mut Chars) -> Option<[u8; 3]> {
     let red = match hex_pair(chars) {
         None => { return None; }
         Some(x) => x
@@ -66,7 +66,7 @@ pub fn rgb(chars: &mut Chars) -> Option<[u8, ..3]> {
 }
 
 /// Reads RGBA colors from iterator of characters.
-pub fn rgba(chars: &mut Chars) -> Option<[u8, ..4]> {
+pub fn rgba(chars: &mut Chars) -> Option<[u8; 4]> {
     let red = match hex_pair(chars) {
         None => { return None; }
         Some(x) => x
@@ -87,7 +87,7 @@ pub fn rgba(chars: &mut Chars) -> Option<[u8, ..4]> {
 }
 
 /// Reads RGB with optional alpha from iterator of characters.
-pub fn rgb_maybe_a(chars: &mut Chars) -> Option<([u8, ..3], Option<u8>)> {
+pub fn rgb_maybe_a(chars: &mut Chars) -> Option<([u8; 3], Option<u8>)> {
     let rgb = match rgb(chars) {
         None => { return None; }
         Some(x) => x
