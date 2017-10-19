@@ -7,7 +7,7 @@ authors = [
 ]
 keywords = ["color", "parse", "hex", "hexadecimal", "piston"]
 description = "A simple library for reading hex colors"
-license = "MIT"
+license = "MIT OR Apache-2.0"
 readme = "README.md"
 repository = "https://github.com/pistondevelopers/read_color.git"
 homepage = "https://github.com/pistondevelopers/read_color"
@@ -16,4 +16,3 @@ homepage = "https://github.com/pistondevelopers/read_color"
 
 name = "read_color"
 path = "src/lib.rs"
-
